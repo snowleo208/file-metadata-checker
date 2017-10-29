@@ -1,0 +1,50 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgba(0,0,0,0.7);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  border: 0;
+  background-color: #f1f1f1;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: #000;
+}
+
+input[type="submit"]:active {
+  transform: translateY(2px);
+}
+
+#result {
+  font-family: arial, sans-serif;
+  color: rgba(0,0,0,0.8);
+  padding: 20px;
+}
+
+.result-text {
+  text-transform: proper;
+}
+
+footer {
+  padding: 1em 0;
+  margin-top: 1em;
+}
